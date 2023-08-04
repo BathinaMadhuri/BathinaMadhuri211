@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@media(max-width:600px){
+
+}
+.card{
+    display: flex;
+    object-fit: contain;
+    transition: transform 300ms;
+    
+}
+.card:hover{
+    transform: scale(0.9);
+}

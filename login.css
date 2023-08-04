@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(0,0,0,0.7) url(Banner/banner1\ -\ Copy.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+}
+.logo1{
+    width: 15rem;
+    margin-top: 1.2rem;
+    margin-left: 2rem;
+}
+.container{
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 1%;
+    width: 400px;
+    height:500px ;
+    background-color:rgba(0,0,0,.6);
+}
+h1{
+    color: #fff;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+input{
+    width: 320px;
+    height: 47px;
+    background-color: #333;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: none;
+    font-size: small;
+}
+input::placeholder{
+    font-size: small;
+    margin-left: 15px;
+    padding: 13px;
+
+}
+input[type=submit]{
+    background-color:red ;
+    color: #fff;
+    font-size: 1.5rem;
+    height:45px ;
+    width: 320px;
+    border-radius: 3px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+input[type=checkbox]{
+    width: 25px;
+    height: 10px;
+}
+label{
+    color: rgb(125,119,119);
+}
+.form a{
+    color: rgb(125,119,119);
+    float: right;
+    margin-top: 24px;
+    margin-right: 64px ;
+    text-decoration: none;
+}
+.content{
+    position:absolute;
+    margin-top: 18px;
+    font-size: 9px;
+    margin-left: 55px;
+
+}
+.content h2{
+color:rgb(125,119,119);
+}
+.content a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    float: right;
+    margin-top: -20px;
+    margin-right: 12rem;
+}
+.desc{
+    margin-top: 1rem;
+}

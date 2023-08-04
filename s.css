@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background: rgba(49, 48, 48, 0.7) url(Banner/pexels-oleksandr-pidvalnyi-1004584.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    width: 100;
+    height: 100;
+
+    
+}
+.container{
+    position: absolute;
+    margin-left: 26%;
+    margin-top: 1%;
+    width: 600px;
+    height:500px ;
+    background-color:rgb(58, 75, 84);
+    padding-top: 5rem;
+    color: #fff;
+}
+
+
+input{
+    width: 350px;
+    height: 47px;
+    background-color: #fff;
+    margin-left: 2rem;
+    margin-top: 10px;
+    border: none;
+    font-size: small;
+    border-radius: 1.3rem;
+}
+input::placeholder{
+    font-size: medium;
+    margin-left: 15px;
+    padding: 13px;
+
+}
+input[type=code]{
+    background-color: violet;
+    width: 12rem;
+    color: #fff;
+    font-size: 1rem;
+
+    
+}
+.form a{
+    color: #fff;
+    float: right;
+    margin-top: 24px;
+    margin-right: 64px ;
+    text-decoration: none;
+}
+p{
+    margin-left: 2rem;
+    padding-top: 1rem;
+    font-size: 20px;
+}
+h2{
+    margin-left: 15rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+.logo
+{
+    padding-top: 1.5rem;
+}

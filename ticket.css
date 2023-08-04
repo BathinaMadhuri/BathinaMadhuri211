@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+@media(max-width: 760px) {
+
+
+}
+body{
+   /* background:  url(Banner/pexels-monstera-7412094.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;*/
+}
+.header {
+    width: 70rem;
+    height: 100vh;
+    background-image: radial-gradient(60.75% 10.88% at 0.39% 60.26%, rgba(98, 98, 121, 0.4) 1.42%, rgba(101, 101, 130, 0.51) 53.8%, rgba(140, 140, 180, 0) 100%), linear-gradient(8.24deg, #606b80 14.75%, rgba(49, 57, 77, 0.48)), url(Banner/pexels-monstera-7412094.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 10%;
+    border-radius: 2rem;
+    margin-left: ;
+    margin-top: ;
+    position: relative;
+    margin-right: ;
+}
+.header h1{
+    color: brown;
+    padding: 2rem 24rem ;
+}
+.bus{
+    width: 35rem;
+    height: 3rem;
+    color: #fff;
+    font-size: 1.7rem;
+    background-color: orange;
+    border-color: orange;
+    border-radius: 2rem;
+    
+}
+.flight{
+    width: 35rem;
+    height: 3rem;
+    color: #fff;
+    font-size: 1.7rem;
+    background-color:skyblue;
+    border-color: skyblue;
+    border-radius: 2rem;
+    
+}
+.book1{
+    margin-top: 0.1rem;
+   /* margin-left: 33rem;*/
+    
+}
+.train{
+    width: 35rem;
+    height: 3rem;
+    color: #fff;
+    font-size: 1.7rem;
+    background-color:rgb(90, 159, 90);
+    border-color: rgb(90, 159, 90);
+    border-radius: 2rem;
+}
+.book2{
+    margin-top: 0.1rem;
+}
+.book p{
+    color: #630404;
+    font-size: 1.5rem;
+    /* margin-left: 35rem; */
+    margin-bottom: ;
+    font-weight: bold;
+    margin-left: 2rem;
+    
+}
+.book1 p{
+    color: #630404;
+    font-size: 1.5rem;
+    /* margin-left: 35rem; */
+    margin-bottom: ;
+    font-weight: bold;
+    margin-right: 5rem;
+    
+    
+}
+.book2 p{
+    color: #630404;
+    font-size: 1.5rem;
+    /* margin-left: 35rem; */
+    margin-bottom: ;
+    font-weight: bold;
+    margin-left: 2rem;
+    
+}
+/*.book1 p{
+    color: #fff;
+    font-size: 1rem;
+    margin-right:35rem;
+    margin-bottom: ;
+}
+.book2  p{
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 35rem;
+    margin-bottom: ;
+}
+/*----------------------------------*/
+.book{
+    display: flex;
+    padding: 56px;
+}
+.book button{
+    width: 34rem;
+    margin-left: -3rem;
+}
+.book2{
+    display: flex;
+    padding: 46px 56px;
+}
+.book2 button{
+    width: 34rem;
+    margin-left: -3rem;
+}
+.book1{
+    display: flex;
+    padding: 26px 56px;
+}
+.book1 button{
+    width: 34rem;
+    margin-left: -3rem;
+}
+h2{
+    font-size: 1.8rem;
+    margin-left: 20rem;
+}
+h3{
+    font-size: 18px;
+    font-weight: 100;
+}
+marquee{
+    font-size: 1.1rem;
+}
+.bus a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.train a{
+    text-decoration: none;
+    color: #fff;
+}
+.flight a{
+    text-decoration: none;
+    color: #fff;
+}

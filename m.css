@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(Banner/pexels-johann-pictures-9129725.jpg);
+}
+@media(max-width: 660px){}
+
+.nav{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+.nav p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.nav button {
+    background-color: darkslategray;
+    border: #fff;
+    color: #fff;
+    border-radius: .6rem;
+    margin-left: 58rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    
+}
+.nav button a{
+    text-decoration: none;
+    color: #fff;
+} 
+.book button{
+    margin-left: 30rem;
+    background-color:skyblue;
+    border-color: aqua;
+    border-radius: .5rem;
+    width:13rem ;
+    height:2rem ;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.book {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: auto;
+    padding: auto;
+}
+.web a{
+    margin-left: 35rem;
+}
+.end a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    color: darkslategrey;
+}
+.end button{
+    width: 7rem;
+    height: 2rem;
+    margin-left: 5rem;
+    border-radius: 1rem;
+    color: darkslategrey;
+
+}
+.class{
+    margin-bottom: 5rem;
+}
+.card{
+    transition: transform 300ms;
+    
+}
+.card:hover{
+    transform: scale(0.9);
+}
+h5 a{
+    text-decoration: none;
+    color: #000;
+
+}
+.card i{
+    margin-left: 20rem;
+}

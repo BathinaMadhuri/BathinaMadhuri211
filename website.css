@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+@media(max-width: 660px){}
+/*--------------navbar----------------------*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background-color: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+nav.english {
+    background-color: transparent;
+    border-color: #fff;
+    border: white;
+}
+nav.h2{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------------header------------------------------------*/
+.header {
+    width: 77rem;
+    height: 100vh;
+    background-image: radial-gradient(80.75% 10.88% at 0.39% 99.26%, rgba(170, 170, 184, 0.4) 1.42%, rgba(60, 60, 69, 0.51) 53.8%, rgba(206, 206, 218, 0) 100%), linear-gradient(8.24deg, #272023 14.75%, rgba(149, 157, 175, 0.48)), url(Banner/pexels-parv-choudhary-2870167.jpg);
+    background-size: cover;
+    background-position: none;
+    border-radius: 1rem;
+    position: relative;
+    padding: 10rem 10rem;
+    color: #fff;
+}
+
+.header h1 {
+    width: 100rem;
+}
+
+.header button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+
+}
+.header-content a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+/*---------------------footer--------------------------------*/
+.footer {
+    padding: 70px 15% 10px;
+}
+
+.footer .col {
+    flex-basis: 25%;
+
+    flex-grow: 1;
+    margin-bottom: 10px;
+
+}
+
+.footer .row {
+    align-items: flex-start;
+    margin-bottom: 3rem;
+    display: flex;
+}
+
+.footer .col a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer button {
+    height: 2.5rem;
+    width: 12rem;
+
+}
+
+.more {
+
+    margin-left: 15rem;
+    border-color: aqua;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    color: aqua;
+    font-size: medium;
+
+}
+
+.start {
+    background-color: orange;
+    color: #fff;
+    border-color: orange;
+    border-radius: 0.3rem;
+}
+.start a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+}

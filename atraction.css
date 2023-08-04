@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: rgb(227, 238, 238);
+    display: flex;
+    object-fit: contain;
+    transition: transform 300ms;
+
+}
+
+.card:hover {
+    transform: scale(0.9);
+}
+
+hr {
+    background: none;
+}
+
+h5 {
+    font-size: 1.5rem;
+    color: rgb(65, 7, 65);
+}

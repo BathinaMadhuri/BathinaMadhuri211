@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://wallpapercave.com/wp/wp4782960.jpg);
+    background-size: cover;
+    width: 80rem;
+    height: 40rem;
+}
+h1{
+    color: #fff;
+    padding: 2rem;
+    font-size: 3rem;
+}
+h3{
+    color: #fff;
+    padding: 0 2rem;
+}
+.class{
+    margin-left: 55rem;
+    color: #fff;
+}
+.cat{
+    color: #fff;
+    margin-left: 2rem;
+    padding-bottom: 0.7rem;
+    font-size: 1.7rem;
+}
+a{
+    color: antiquewhite;
+    margin-left: 2rem;
+    font-size: 25px;
+    text-decoration: none;
+}

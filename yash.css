@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.poster {
+    object-fit: contain;
+    max-height: 200px;
+    margin-left: 10px;
+    transition: transform 420ms;
+}
+
+.poster:hover {
+    transform: scale(1.09);
+}
+
+.posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-left: 10px;
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
+
+
+.banner {
+    background-image: url(banner\ -\ Copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 480px;
+}
+
+h3 {
+    color: white;
+    font-size: 1.0rem;
+    text-align: center;
+    margin-top: 6px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+}
+
+.fade {
+   margin-top: -30px;
+    height: 10rem;
+    background-image: linear-gradient(180deg, transparent, rgba(14, 9, 9, 0.62), #111);
+}
+
+.banner-title{
+
+    padding-top: 10rem;
+    padding-left: 8rem;
+}
+.title{
+
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button{
+
+    background-color:#111;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: transform 420ms;
+    padding: 0.2rem;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #111;
+    transform: scale(1.07);
+}
+.banner-descr{
+
+    max-width: 360px;
+    color: #fff;
+    font-size: 0.7rem;
+    padding-top: 2rem;
+}
+.nav img{
+    max-height: 4rem;
+}
+.nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    margin-left: 10px;
+    width: 100%;
+    margin-top: 1rem;
+    z-index: 1;
+
+
+}
+.logo{
+    width: 100px;
+    object-fit: contain;
+
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 3rem;
+    border: 2px solid #fff;
+    margin-right: 2rem;
+    opacity: 50%;
+}
+ul{
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    list-style-type: none;
+    margin-right: 45rem;
+    margin-top: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+li{
+    margin-left: 2rem;
+    transition: 1;
+}
+li:hover{
+    color: brown;
+}
